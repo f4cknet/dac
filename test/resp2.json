@@ -1,0 +1,116 @@
+{
+	"code": 10100,
+	"msg": "页面已过期，请重新刷新页面再提交",
+	"traceId": "yz7-0ad7309c-1699341384107-799314",
+	"extra": {
+		"message": "code: 10100, msg: 页面已过期，请重新刷新页面再提交"
+	},
+	"message": "code: 10100, msg: 页面已过期，请重新刷新页面再提交",
+	"type": "CsrfError",
+	"clientRequest": {
+		"rootId": "yz7-0ad7309c-1699341384107-799314",
+		"url": "/v4/trade/invoice/api/reSubmitEnterpriseInfo.json",
+		"method": "POST",
+		"originalUrl": "/v4/trade/invoice/api/reSubmitEnterpriseInfo.json",
+		"host": "store.youzan.com",
+		"headers": {
+			"host": "store.youzan.com",
+			"content-length": "2971",
+			"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+			"accept-encoding": "",
+			"accept": "application/json, text/plain, */*",
+			"accept-language": "zh-CN,zh;q=0.9",
+			"content-type": "application/json",
+			"origin": "https://store.youzan.com",
+			"referer": "https://store.youzan.com/v4/trade/invoice",
+			"sec-ch-ua": "\"Chromium\";v=\"118\", \"Google Chrome\";v=\"118\", \"Not=A?Brand\";v=\"99\"",
+			"sec-ch-ua-mobile": "?0",
+			"sec-ch-ua-platform": "\"macOS\"",
+			"sec-fetch-dest": "empty",
+			"sec-fetch-mode": "cors",
+			"sec-fetch-site": "same-origin",
+			"who": "www",
+			"x-cat-trace": "{\"_catChildMessageId\":\"yz7-0ad7309c-1699341384107-620394\",\"_catRootMessageId\":\"yz7-0ad7309c-1699341384107-799314\"}",
+			"x-forwarded-for": "172.18.206.81, 172.18.206.81",
+			"x-forwarded-proto": "http",
+			"x-kdt-remote": "172.18.206.81:",
+			"x-kdt-scheme": "http",
+			"x-real-ip": "172.18.206.81",
+			"x-rontgen": "traceId=yz7-0ad7309c-1699341384107-799314;spanId=yz7-0ad7309c-1699341384107-799314;sampled=false",
+			"x-service-chain": "{\"clientip\":\"172.18.206.81\",\"name\":\"prj0070201\",\"kdtid\":\"79844973\",\"percent\":797}",
+			"x-yz-action-id": "wsc-pc-trade-0ad733e7-1699341367227-985069",
+			"x-yz-elapsed": "0",
+			"x-yz-trace": "yz7-0ad7309c-1699341384107-799314",
+			"x-yz-via": "bd-pre-httpgw-cloud-httpgw-default-nginx-0"
+		},
+		"query": {},
+		"requestBody": {
+			"enterpriseName": "杭州有赞科技有限公司",
+			"enterpriseType": 1,
+			"taxpayerId": "91330100310526120W",
+			"taxpayerArea": {
+				"address": "有赞新办公楼",
+				"province": "浙江省",
+				"provinceId": "330000",
+				"city": "杭州市",
+				"cityId": "330100",
+				"area": "西湖区",
+				"countyId": "330106"
+			},
+			"enterprisePhone": "15044079171",
+			"bankName": "招商银行杭州武林支行",
+			"bankAccount": "571907821710202",
+			"threeInOne": true,
+			"taxOfficerName": "董璐璐",
+			"taxOfficerPhone": "15927199025",
+			"taxOfficerEmail": "blxxjb@youzan.com",
+			"taxOfficerType": "1",
+			"taxOfficerId": "211224199511209328",
+			"taxOfficerFrontImg": {
+				"privateUrl": "https://dn-kdt-private.qbox.me/kdt-private-2023-10-19-FuhuJ6GA2qfB26EkcTaGvhP9Zd8J.jpg?e=1699341968&token=pNRZT0KqE-4QuBa6MxYRg-Uc-FTJ8vw_TDVMOYK0:aD9TNXIsQ1Rg51NyhWGgrXWnSLk=",
+				"fileName": "办税人身份证正面.jpg",
+				"type": 1
+			},
+			"taxOfficerBackImg": {
+				"privateUrl": "https://dn-kdt-private.qbox.me/kdt-private-2023-10-19-FuhuJ6GA2qfB26EkcTaGvhP9Zd8J.jpg?e=1699341968&token=pNRZT0KqE-4QuBa6MxYRg-Uc-FTJ8vw_TDVMOYK0:aD9TNXIsQ1Rg51NyhWGgrXWnSLk=",
+				"fileName": "办税人身份证反面.jpg",
+				"type": 1
+			},
+			"drawer": "董璐璐",
+			"payeeName": "董璐璐",
+			"reviewerName": "董璐璐",
+			"threeInOneLicense": {
+				"bizLicenseImg": {
+					"privateUrl": "https://dn-kdt-private.qbox.me/kdt-private-2023-10-19-FuhuJ6GA2qfB26EkcTaGvhP9Zd8J.jpg?e=1699341968&token=pNRZT0KqE-4QuBa6MxYRg-Uc-FTJ8vw_TDVMOYK0:aD9TNXIsQ1Rg51NyhWGgrXWnSLk=",
+					"fileName": "营业执照.jpg",
+					"type": 1
+				},
+				"uniformSocialCreditId": "91330100310526120W",
+				"invoiceStampImg": {
+					"privateUrl": "https://dn-kdt-private.qbox.me/kdt-private-2023-10-19-FuhuJ6GA2qfB26EkcTaGvhP9Zd8J.jpg?e=1699341968&token=pNRZT0KqE-4QuBa6MxYRg-Uc-FTJ8vw_TDVMOYK0:aD9TNXIsQ1Rg51NyhWGgrXWnSLk=",
+					"fileName": "发票专用章.jpg",
+					"type": 1
+				},
+				"caAuthorizeImg": {
+					"privateUrl": "https://dn-kdt-private.qbox.me/kdt-private-2023-10-19-FuhuJ6GA2qfB26EkcTaGvhP9Zd8J.jpg?e=1699341968&token=pNRZT0KqE-4QuBa6MxYRg-Uc-FTJ8vw_TDVMOYK0:aD9TNXIsQ1Rg51NyhWGgrXWnSLk=",
+					"fileName": "认证授权图片.jpg",
+					"type": 1
+				},
+				"legalPersonFrontImg": {
+					"privateUrl": "https://dn-kdt-private.qbox.me/kdt-private-2023-10-19-FuhuJ6GA2qfB26EkcTaGvhP9Zd8J.jpg?e=1699341968&token=pNRZT0KqE-4QuBa6MxYRg-Uc-FTJ8vw_TDVMOYK0:aD9TNXIsQ1Rg51NyhWGgrXWnSLk=",
+					"fileName": "法人身份证正面.jpg",
+					"type": 1
+				},
+				"legalPersonBackImg": {
+					"privateUrl": "https://dn-kdt-private.qbox.me/kdt-private-2023-10-19-FuhuJ6GA2qfB26EkcTaGvhP9Zd8J.jpg?e=1699341968&token=pNRZT0KqE-4QuBa6MxYRg-Uc-FTJ8vw_TDVMOYK0:aD9TNXIsQ1Rg51NyhWGgrXWnSLk=",
+					"fileName": "法人身份证反面.jpg",
+					"type": 1
+				}
+			},
+			"csrf_token": "91707673758269820465153704896346000043882729869838732105339905684705422685044"
+		}
+	},
+	"nodeReqLogs": [],
+	"nodeResLogs": [],
+	"env": "pre"
+}
